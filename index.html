@@ -1,66 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookish - Read More And Make Success</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name=" lorem
-    
-    
-            
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form in HTML and CSS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>My E-Book Library</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">About</a></li>          
-
-                      doc dcm
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Book Display Section -->
-    <section class="book-display">
-        <div class="container">
-            <div class="book">
-                <img src="book1.jpg" alt="Book 1">
-                <h2>Book Title 1</h2>
-                <p>Author: John Doe</p>
-                <p>A brief description of the book.</p>
-                <a href="#" class="btn">Read Now</a>
-            </div>
-            <div class="book">
-                <img src="book2.jpg" alt="Book 2">
-                <h2>Book Title 2</h2>
-                <p>Author: Jane Smith</p>
-                <p>A brief description of the book.</p>
-                <a href="#" class="btn">Read Now</a>
-            </div>
-            <!-- More books can be added here -->
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 My E-Book Library. All rights reserved.</p>
-            <div class="socials">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Watsapp</a>
-            </div>
-        </div>
-    </footer>
-
+  <div class="wrapper">
+    <form action="">
+      <h1>Login</h1>
+      <div class="input-box">
+        <i class='bx bx-user'></i>
+        <input type="text" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <i class='bx bx-lock-alt'></i>
+        <input type="password" placeholder="Password" required>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button class="btn-login" type="submit">Login</button>
+      <div class="register-link">
+        <p>Don't have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
